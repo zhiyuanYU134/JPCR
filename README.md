@@ -1,15 +1,18 @@
 # Point Cloud Registration in Jittor
 
-Jittpr implementation of these papers:
+Jittor implementation of these papers:
 
 [Geometric Transformer for Fast and Robust Point Cloud Registration](https://arxiv.org/abs/2202.06688).
+
 [Zheng Qin](https://scholar.google.com/citations?user=DnHBAN0AAAAJ), [Hao Yu](https://scholar.google.com/citations?user=g7JfRn4AAAAJ), Changjian Wang, [Yulan Guo](https://scholar.google.com/citations?user=WQRNvdsAAAAJ), Yuxing Peng, and [Kai Xu](https://scholar.google.com/citations?user=GuVkg-8AAAAJ).
 
 [Deep Graph-Based Spatial Consistency for Robust Non-Rigid Point Cloud Registration](http://arxiv.org/abs/2303.09950).
+
 [Zheng Qin](https://scholar.google.com/citations?user=DnHBAN0AAAAJ), [Hao Yu](https://scholar.google.com/citations?user=g7JfRn4AAAAJ),
 Changjian Wang, Yuxing Peng, and [Kai Xu](https://scholar.google.com/citations?user=GuVkg-8AAAAJ).
 
 [Learning Instance-Aware Correspondences for Robust Multi-Instance Point Cloud Registration in Cluttered Scenes](https://arxiv.org/abs/2404.04557).
+
 Zhiyuan Yu, Zheng Qin, Lintao Zheng, and Kai Xu.
 
 
@@ -38,13 +41,14 @@ Code has been tested with Ubuntu 20.04, GCC 9.3.0, Python 3.8, PyTorch 1.7.1, CU
 
 ## Pre-trained Weights
 
-We provide pre-trained weights in the `output` directory.
+We provide pretrained weights in [https://drive.google.com/drive/folders/14dFeMda_zt0r2pC-NjnpLsZGeJ9fpD3o?usp=drive_link].
 
 ### Training
 
  Use the following command for training.
 
-```bash ./train_jittor.sh
+```bash
+./train_jittor.sh
 ```
 
 ### Testing
@@ -76,6 +80,7 @@ CUDA_VISIBLE_DEVICES=0 python experiments/3dmatch/test.py
     year={2023},
     pages={5394-5403}
 }
+
 @inproceedings{yu2024learning,
   title={Learning Instance-Aware Correspondences for Robust Multi-Instance Point Cloud Registration in Cluttered Scenes},
   author={Yu, Zhiyuan and Qin, Zheng and Zheng, Lintao and Xu, Kai},
@@ -83,8 +88,6 @@ CUDA_VISIBLE_DEVICES=0 python experiments/3dmatch/test.py
   pages={19605--19614},
   year={2024}
 }
-
-``
 ```
 
 ## Acknowledgements
