@@ -41,7 +41,7 @@ Code has been tested with Ubuntu 20.04, GCC 9.3.0, Python 3.8, PyTorch 1.7.1, CU
 
 ## Pre-trained Weights
 
-We provide pretrained weights in [https://drive.google.com/drive/folders/14dFeMda_zt0r2pC-NjnpLsZGeJ9fpD3o?usp=drive_link].
+We provide pretrained weights in https://drive.google.com/drive/folders/1zb6TzkUtM8uGy7qBprGhg1oufIjxxZDZ?usp=drive_link.
 
 ### Training
 
