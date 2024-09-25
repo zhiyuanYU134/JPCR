@@ -22,7 +22,6 @@ Please use the following command for installation.
 conda create -n pcr-jittor python==3.8
 conda activate pcr-jittor
 
-# [Optional] If you are using CUDA 11.0 or newer, please install `torch==1.7.1+cu110`
 # Install packages and other dependencies
 pip install -r requirements.txt
 python setup.py build develop
