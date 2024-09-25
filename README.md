@@ -4,16 +4,9 @@ Jittor implementation of these papers:
 
 [Geometric Transformer for Fast and Robust Point Cloud Registration](https://arxiv.org/abs/2202.06688).
 
-[Zheng Qin](https://scholar.google.com/citations?user=DnHBAN0AAAAJ), [Hao Yu](https://scholar.google.com/citations?user=g7JfRn4AAAAJ), Changjian Wang, [Yulan Guo](https://scholar.google.com/citations?user=WQRNvdsAAAAJ), Yuxing Peng, and [Kai Xu](https://scholar.google.com/citations?user=GuVkg-8AAAAJ).
-
 [Deep Graph-Based Spatial Consistency for Robust Non-Rigid Point Cloud Registration](http://arxiv.org/abs/2303.09950).
 
-[Zheng Qin](https://scholar.google.com/citations?user=DnHBAN0AAAAJ), [Hao Yu](https://scholar.google.com/citations?user=g7JfRn4AAAAJ),
-Changjian Wang, Yuxing Peng, and [Kai Xu](https://scholar.google.com/citations?user=GuVkg-8AAAAJ).
-
 [Learning Instance-Aware Correspondences for Robust Multi-Instance Point Cloud Registration in Cluttered Scenes](https://arxiv.org/abs/2404.04557).
-
-Zhiyuan Yu, Zheng Qin, Lintao Zheng, and Kai Xu.
 
 
 ## News
@@ -63,6 +56,16 @@ CUDA_VISIBLE_DEVICES=0 python experiments/3dmatch/test.py
 ## Citation
 
 ```bibtex
+@article{hu2020jittor,
+  title={Jittor: a novel deep learning framework with meta-operators and unified graph execution},
+  author={Hu, Shi-Min and Liang, Dun and Yang, Guo-Ye and Yang, Guo-Wei and Zhou, Wen-Yang},
+  journal={Science China Information Sciences},
+  volume={63},
+  number={222103},
+  pages={1--21},
+  year={2020}
+}
+
 @misc{qin2022geometric,
       title={Geometric Transformer for Fast and Robust Point Cloud Registration},
       author={Zheng Qin and Hao Yu and Changjian Wang and Yulan Guo and Yuxing Peng and Kai Xu},
