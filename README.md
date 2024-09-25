@@ -41,7 +41,7 @@ We provide pretrained weights in https://drive.google.com/drive/folders/1zb6TzkU
  Use the following command for training.
 
 ```bash
-./train_jittor.sh
+./train_3dmatch_jittor.sh
 ```
 
 ### Testing
